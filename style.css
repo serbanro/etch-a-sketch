@@ -1,0 +1,35 @@
+body {
+    color: rgb(187, 153, 103);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.container {
+    margin:  auto;
+    color: red;
+    height: 600px;
+    width: 600px;
+    border: 1px solid #f4f4f4;;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+.square {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f4f4f4;
+}
+
+.reset {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin: 70px auto 50px auto;
+    font-size: 30px;
+    border: none;
+    margin: none;
+    background-color: rgba(250, 250, 250, 0.5);
+}
